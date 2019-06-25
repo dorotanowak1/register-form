@@ -123,7 +123,7 @@ class App extends React.Component {
           <h1>REGISTER</h1>
 
           {!this.state.formLoaded ? (
-            <h4>in order to register choose organization you belong to</h4>
+            <h4>in order to register choose organisation you belong to</h4>
           ) : null}
         </div>
         {!this.state.formLoaded ? (
