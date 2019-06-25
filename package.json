@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "final-form": "^4.16.1",
+    "json-server": "^0.15.0",
     "react": "^16.8.6",
+    "react-advanced-form": "^1.7.2",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-final-form": "^6.3.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.2",
+    "uuid": "^3.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "./node_modules/json-server/lib/cli/bin.js --watch public/db.json --port 3001 --routes public/routes.json & react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

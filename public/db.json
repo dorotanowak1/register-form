@@ -1,0 +1,90 @@
+{
+  "customerA": [
+    {
+      "attribute": "firstname",
+      "name": "First name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "lastname",
+      "name": "Last name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "email",
+      "name": "Email",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "hireDate",
+      "name": "Hire Date",
+      "type": "date",
+      "required": true
+    },
+    {
+      "attribute": "country",
+      "name": "Country",
+      "type": "text",
+      "required": false
+    }
+  ],
+  "customerB": [
+    {
+      "attribute": "firstname",
+      "name": "First name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "lastname",
+      "name": "Last name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "email",
+      "name": "Email",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "jobTitle",
+      "name": "Job Title",
+      "type": "text",
+      "required": true
+    },
+    {
+      "attribute": "department",
+      "name": "Department",
+      "type": "text",
+      "required": true
+    }
+  ],
+  "users": [
+    [
+      {
+        "attribute": "firstname",
+        "value": "Dorota"
+      },
+      {
+        "attribute": "lastname",
+        "value": "Nowak"
+      },
+      {
+        "attribute": "email",
+        "value": "nvkdoro@gmail.com"
+      },
+      {
+        "attribute": "jobTitle",
+        "value": "ddd"
+      },
+      {
+        "attribute": "department",
+        "value": "ddd"
+      }
+    ]
+  ]
+}
